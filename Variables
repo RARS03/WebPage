@@ -1,0 +1,36 @@
+<?php
+#variable Numérica
+$numero = 5;
+echo "<br>Esto es una variable número: $numero <br>";
+#para ver el tipo de Variable: "var_dump()"
+var_dump($numero);
+
+#variable texto
+$palabra = "palabra";
+echo "<br>Esto es una variable texto: $palabra <br>";
+var_dump($palabra);
+echo "<br><br>";
+#Variable Booleana
+$bol = true;
+$bolF = false;
+echo "Esto es una variable boleana: $bol";
+echo "<br><br>";
+echo "Esto es una variable boleana: $bolF";
+echo "<br><br>";
+
+#variable Arreglo
+$colores = array("rojo", "amarillo");
+echo "Esto es una variable Arreglo: $colores[0], $colores[1]";
+echo "<br><br>";
+
+#Variable Arreglo con Propiedades
+$verdura = array("verdura1"=>"lechuga", "verdura2"=>"cebolla");
+echo "Esto es una Variable Arreglo con Propiedades: $verdura[verdura1]";
+echo "<br><br>";
+
+#Variable Tipo Objeto
+$frutas = (object)["fruta1"=>"Pera", "fruta2"=>"Uvas"];
+echo "Esto es una variable Objeto: $frutas->fruta1 , $frutas->fruta2";
+echo "<br><br>";
+
+?>
